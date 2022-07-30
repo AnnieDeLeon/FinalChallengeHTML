@@ -1,1 +1,7 @@
-/*# sourceMappingURL=style.css.map */
+.aside-list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
