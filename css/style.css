@@ -3,8 +3,12 @@ footer {
   padding: 30px;
 }
 
-.built-paragraph {
-  margin-bottom: -20px;
+.footer {
+  flex-direction: column;
+}
+
+.aling-paragraph {
+  text-align: center;
 }
 
 .plant-icon:hover {
