@@ -1,1 +1,32 @@
-/*# sourceMappingURL=style.css.map */
+footer {
+  background-color: hsl(0deg, 0%, 90%);
+  padding: 30px;
+}
+
+.built-paragraph {
+  margin-bottom: -20px;
+}
+
+.plant-icon:hover {
+  width: 32px;
+  height: 32px;
+  border-color: rgb(47, 58, 178);
+  border-radius: 25%;
+  fill: rgb(47, 58, 178);
+  background: rgba(59, 73, 223, 0.1019607843);
+}
+
+a {
+  color: rgb(59, 73, 223);
+  text-decoration: none;
+}
+
+.anchors-styles:hover {
+  color: #2F3AB2;
+  text-decoration: underline;
+}
+
+.font {
+  font-size: smaller;
+  color: #5a5a5a;
+}/*# sourceMappingURL=style.css.map */
