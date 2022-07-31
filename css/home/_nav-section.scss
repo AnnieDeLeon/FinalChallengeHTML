@@ -1,10 +1,36 @@
+nav {
+    background-color: hsl(0,0%,100%);
+    color: hsl(0,0%,9%);
+}
 
-.aside-list {
-    list-style: none;
+.navbar-toggler {
+    border-style: none;
+    color: transparent !important;
+}
+
+.dev-logo {
+    height: 40px;
+    width: 50px;
+}
+
+.alert-notification {
+    width: 15px;
+    height: 25px;
+    color: hsl(0,0%,100%);
+    background-color: hsl(4,71%,53%);
+    position: absolute;
+    border-radius: 50px;
+    top: 5px;
+    right: 60px;
+    display: flex;
+    justify-content: center;
 
 }
 
-a { //OJO
-    text-decoration: none;
+.profile-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
 }
+
 

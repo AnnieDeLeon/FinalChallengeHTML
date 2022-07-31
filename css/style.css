@@ -1,7 +1,64 @@
+nav {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(0deg, 0%, 9%);
+}
+
+.navbar-toggler {
+  border-style: none;
+  color: transparent !important;
+}
+
+.dev-logo {
+  height: 40px;
+  width: 50px;
+}
+
+.alert-notification {
+  width: 15px;
+  height: 25px;
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(4deg, 71%, 53%);
+  position: absolute;
+  border-radius: 50px;
+  top: 5px;
+  right: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+
 .aside-list {
   list-style: none;
 }
 
 a {
   text-decoration: none;
+  color: hsl(0deg, 0%, 25%);
+}
+
+.none-display-aside {
+  display: none;
+}
+
+.fill-social-media:hover {
+  width: 35px;
+  height: 35px;
+  border-color: rgb(47, 58, 178);
+  border-radius: 25%;
+  fill: rgb(47, 58, 178);
+  background: rgba(59, 73, 223, 0.1019607843);
+}
+
+@media screen and (min-width: 768px) {
+  .none-display-aside {
+    display: block;
+  }
+}
+body {
+  background-color: hsl(0deg, 0%, 96%);
 }/*# sourceMappingURL=style.css.map */
