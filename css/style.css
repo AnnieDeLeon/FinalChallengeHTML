@@ -1,1 +1,89 @@
-/*# sourceMappingURL=style.css.map */
+main {
+  background-color: rgb(244, 235, 235);
+}
+main .nav .nav-item .nav-link {
+  font-weight: bold;
+  color: black;
+}
+main .nav .nav-item:hover {
+  background-color: white;
+}
+main .card .card-img-top {
+  width: 100%;
+}
+main .card .container_img-text {
+  display: flex;
+}
+main .card .main__section--img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+main .card .text__name {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  padding-left: 20px;
+  border-style: none;
+  margin: 0%;
+}
+main .card .card-text {
+  font-weight: bolder;
+  font-size: 28px;
+  text-decoration: none;
+}
+main .card .text-muted {
+  font-size: small;
+  text-decoration: none;
+}
+main .card .hashtag-hover--blue {
+  text-decoration: none;
+  color: hsl(0deg, 0%, 31%);
+}
+main .card .hashtag-hover--blue:hover {
+  background-color: rgba(0, 60, 255, 0.081);
+  border-radius: 15%;
+}
+main .card .hashtag-hover--blue .hashtags--blue {
+  color: blue;
+}
+main .card .hashtag-hover--orange {
+  text-decoration: none;
+  color: hsl(0deg, 0%, 31%);
+}
+main .card .hashtag-hover--orange:hover {
+  background-color: rgba(255, 166, 0, 0.159);
+  border-radius: 15%;
+}
+main .card .hashtag-hover--orange .hashtags--orange {
+  color: orange;
+}
+main .card .hashtag-hover--green {
+  text-decoration: none;
+  color: hsl(0deg, 0%, 31%);
+}
+main .card .hashtag-hover--green:hover {
+  background-color: rgba(38, 126, 38, 0.178);
+  border-radius: 15%;
+}
+main .card .hashtag-hover--green .hashtags--green {
+  color: green;
+}
+main .card .hashtag-hover--yellow {
+  text-decoration: none;
+  color: hsl(0deg, 0%, 31%);
+}
+main .card .hashtag-hover--yellow:hover {
+  background-color: rgba(255, 255, 0, 0.13);
+  border-radius: 15%;
+}
+main .card .hashtag-hover--yellow .hashtags--yellow {
+  color: yellow;
+}
+main .card .btn {
+  border-style: none;
+  border-radius: 5px;
+}
+main .card .btn:hover {
+  background-color: rgb(246, 244, 244);
+}/*# sourceMappingURL=style.css.map */
