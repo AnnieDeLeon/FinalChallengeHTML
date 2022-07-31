@@ -1,1 +1,31 @@
-/*# sourceMappingURL=style.css.map */
+.img__initial {
+  width: 100%;
+}
+
+.git--article {
+  width: 100%;
+}
+
+.comments__user {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.post--list {
+  list-style: none;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+.icon__fill-red:hover {
+  fill: red;
+}
+.icon__fill-green:hover {
+  fill: green;
+}
+.icon__fill-purple:hover {
+  fill: purple;
+}/*# sourceMappingURL=style.css.map */

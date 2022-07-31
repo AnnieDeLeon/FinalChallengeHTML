@@ -1,0 +1,19 @@
+.post--list{
+    list-style: none;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+
+    &__fill-red:hover{
+        fill: red;
+          
+    }
+    &__fill-green:hover{
+        fill: green;
+    }
+    &__fill-purple:hover{
+        fill: purple;
+    }
+
+  }

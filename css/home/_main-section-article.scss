@@ -1,3 +1,15 @@
 .img__initial{
-    width: 100px;
+    width: 100%;
 }
+
+.git--article{
+    width: 100%;
+}
+.comments{
+    &__user{
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+    }
+} 
+// aside-left
