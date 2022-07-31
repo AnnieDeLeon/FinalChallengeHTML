@@ -24,14 +24,18 @@ a { //OJO
     background: #3b49df1A;   
 }
 
-// .fill-icons-left-aside:hover {
-//     width: 35px;
-//     height: 35px;
-//     border-color: rgba(47, 58, 178, 1);
-//     border-radius: 25%;
-//     fill: rgba(47, 58, 178, 1);
-//     background: #3b49df1A;   
-// }
+.fill-icons-left-aside:hover {
+    padding: 3px;
+    border-color: rgba(47, 58, 178, 1);
+    border-radius: 5px;
+    fill: rgba(47, 58, 178, 1);
+    background: #3b49df1A;
+    text-decoration: underline;   
+}
+
+.mytag-no-hover {
+    pointer-events: none;
+}
 
 
 @media screen and (min-width: 768px) {
