@@ -23,16 +23,18 @@
   border-bottom: 1px solid rgba(121, 120, 120, 0.055);
 }
 .right-aside--listings:hover {
+  cursor: pointer;
   background-color: white;
-  color: blue;
+  color: hsl(235deg, 72%, 55%);
 }
 
 .right-aside--help {
   border-bottom: 1px solid rgba(121, 120, 120, 0.055);
 }
 .right-aside--help:hover {
+  cursor: pointer;
   background-color: white;
-  color: blue;
+  color: hsl(235deg, 72%, 55%);
 }
 
 .right-aside--span {
@@ -47,6 +49,7 @@
   border-bottom: 1px solid rgba(121, 120, 120, 0.055);
 }
 .right-aside--discuss:hover {
+  cursor: pointer;
   background-color: white;
-  color: blue;
+  color: hsl(235deg, 72%, 55%);
 }/*# sourceMappingURL=style.css.map */
