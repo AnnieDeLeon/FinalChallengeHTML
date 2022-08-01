@@ -13,22 +13,13 @@ nav {
   width: 50px;
 }
 
-.search-container {
-  width: 500px;
-  height: 50px;
+.search-none {
+  display: none !important;
 }
 
-.search-button {
+.search-mobile {
   border: none;
   background: none;
-}
-
-.button-create-post {
-  color: hsl(235deg, 72%, 55%);
-}
-
-.button-create-post:hover {
-  background-color: hsl(235deg, 72%, 55%);
 }
 
 .alert-notification {
@@ -36,12 +27,8 @@ nav {
   height: 25px;
   color: hsl(0deg, 0%, 100%);
   background-color: hsl(4deg, 71%, 53%);
-  position: absolute;
   border-radius: 50px;
-  top: 5px;
-  right: 60px;
-  display: flex;
-  justify-content: center;
+  margin-left: -10px;
 }
 
 .profile-image {
@@ -50,11 +37,53 @@ nav {
   border-radius: 50px;
 }
 
+.button-create-post {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburger-btn {
+    display: none;
+  }
+  .button-create-post {
+    color: hsl(235deg, 72%, 55%);
+    border-color: hsl(235deg, 72%, 55%);
+    height: 40px;
+    width: 118px;
+    display: inline-block;
+  }
+  .button-create-post:hover {
+    background-color: hsl(235deg, 72%, 55%);
+    border-color: hsl(235deg, 72%, 55%);
+    text-decoration: none;
+  }
+  .search-mobile {
+    display: none;
+  }
+  .search-none {
+    display: flex !important;
+  }
+  .input-search {
+    width: 350px;
+  }
+  .loupe-search {
+    margin-left: -33px;
+    margin-top: 5px;
+  }
+  .alert-notification {
+    right: 23%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .alert-notification {
+    right: 7.5%;
+  }
+}
 .aside-list {
   list-style: none;
 }
 
-a {
+.aside-left a {
   text-decoration: none;
   color: hsl(0deg, 0%, 25%);
 }
@@ -72,17 +101,27 @@ a {
   background: rgba(59, 73, 223, 0.1019607843);
 }
 
+.fill-icons-left-aside {
+  padding: 5px;
+}
+
 .fill-icons-left-aside:hover {
-  padding: 3px;
   border-color: rgb(47, 58, 178);
   border-radius: 5px;
   fill: rgb(47, 58, 178);
   background: rgba(59, 73, 223, 0.1019607843);
   text-decoration: underline;
 }
+.fill-icons-left-aside:hover a {
+  color: rgb(47, 58, 178);
+}
 
 .mytag-no-hover {
   pointer-events: none;
+}
+
+.card-bg {
+  background-color: hsl(0deg, 0%, 98%);
 }
 
 @media screen and (min-width: 768px) {
