@@ -23,6 +23,14 @@ nav {
   background: none;
 }
 
+.button-create-post {
+  color: hsl(235deg, 72%, 55%);
+}
+
+.button-create-post:hover {
+  background-color: hsl(235deg, 72%, 55%);
+}
+
 .alert-notification {
   width: 15px;
   height: 25px;
@@ -56,8 +64,8 @@ a {
 }
 
 .fill-social-media:hover {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   border-color: rgb(47, 58, 178);
   border-radius: 25%;
   fill: rgb(47, 58, 178);

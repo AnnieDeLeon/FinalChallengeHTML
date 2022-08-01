@@ -23,6 +23,14 @@ nav {
     background: none;
 }
 
+.button-create-post {
+    color: hsl(235,72%,55%);
+} 
+
+.button-create-post:hover {
+    background-color: hsl(235,72%,55%);
+}
+
 .alert-notification {
     width: 15px;
     height: 25px;

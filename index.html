@@ -15,7 +15,6 @@
   </head>
   <body>
     <header>
-      
       <nav class="navbar bg-light">
         <div class="container-fluid">
           <div class="col-7">
@@ -27,14 +26,12 @@
               aria-controls="offcanvasNavbar">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <!-- <a class="navbar-brand" href="#">Offcanvas navbar</a> -->
             <img
               class="dev-logo"
               src="./assets/home/nav-section.scss/devto-logo.png"
               alt="DEV.TO Logo"
             />
           </div>
-          <!-- <a class="navbar-brand" href="#">###</a> -->
           <div class="d-flex justify-content-around col-5">
             <div class="search-container d-flex" role="search">
             <form class="d-flex" role="search">
@@ -43,6 +40,11 @@
               <img src="./assets/home/nav-section.scss/loupe-search.svg" alt="Search"/>
             </button>
             </form>
+            <!--SEARCH BUTTON-->
+            <form class="form-inline my-2 my-lg-0">
+            <button class="button-create-post btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <!--NOTIFICATION ICON-->
             <div>
               <a href="#"
                 ><img
@@ -51,12 +53,14 @@
               /></a>
               <span class="alert-notification">1</span>
             </div>
-          
+            <!--PROFILE IMAGE-->
             <a href="#"
               ><img class="profile-image"
                 src="./assets/home/nav-section.scss/profile-image.webp"
                 alt="Search"
             /></a>
+
+          <!--LIST-->  
           <div
             class="offcanvas offcanvas-start"
             tabindex="-1"
@@ -155,6 +159,7 @@
                 </li>
               </ul>
               <ul class="aside-list navbar-nav justify-content-end flex-grow-1">
+                <!--TEST PÁRRAFO-->
                 <p><strong>Other</strong></p>
                 <li class="#">
                   <img
@@ -176,7 +181,7 @@
                 </li>
               </ul>
             </div>
-            <div class="mt-2 mb-4 d-flex justify-content-around">
+            <div class="mt-2 mb-4 ms-2 d-flex justify-content-around">
               <img
                 src="./assets/home/left-aside.scss/twitter.svg"
                 alt="Twitter Icon"
@@ -315,7 +320,7 @@
               /><a class="ms-2" href="#">Terms of use</a>
             </li>
           </ul>
-          <div class="mt-4 d-flex justify-content-between">
+          <div class="mt-4 d-flex justify-content-between ms-4">
             <svg class="fill-social-media crayons-icon c-link__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" role="img" aria-labelledby="ahl0dt0t146y73mkr446hcvp5p9wrox9"><title id="ahl0dt0t146y73mkr446hcvp5p9wrox9">Twitter</title>
               <path d="M22.162 5.656a8.383 8.383 0 01-2.402.658A4.196 4.196 0 0021.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 00-7.126 3.814 11.874 11.874 0 01-8.62-4.37 4.168 4.168 0 00-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 01-1.894-.523v.052a4.185 4.185 0 003.355 4.101 4.211 4.211 0 01-1.89.072A4.185 4.185 0 007.97 16.65a8.395 8.395 0 01-6.191 1.732 11.83 11.83 0 006.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.495 8.495 0 002.087-2.165l-.001-.001z"></path>
             </svg>
@@ -337,10 +342,10 @@
             <a href="https://www.twitch.tv/thepracticaldev"></a>
           </div>
           <!--MY-TAGS-->
-          <div class="mt-5 d-flex justify-content-between">
+          <div class="mt-5 d-flex justify-content-between ms-4">
             <a class="aside-list mytag-no-hover" href="https://dev.to/dashboard/following_tags">
               <strong>My Tags</strong></a>
-              <svg class="fill-social-media" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 44 44" width="24" height="24">
+              <svg class="fill-social-media me-3" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 44 44" width="24" height="24">
                 <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewbox="0 0 24 24" role="img" class="crayons-icon">
                   <path d="M12 1l9.5 5.5v11L12 23l-9.5-5.5v-11L12 1zm0 2.311L4.5 7.653v8.694l7.5 4.342 7.5-4.342V7.653L12 3.311zM12 16a4 4 0 110-8 4 4 0 010 8zm0-2a2 2 0 100-4 2 2 0 000 4z"></path>
                 </svg>
