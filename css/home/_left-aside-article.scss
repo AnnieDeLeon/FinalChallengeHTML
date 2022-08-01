@@ -1,13 +1,31 @@
+.aside__left--fixed{
+    background-color: aqua;
+}
 .post--list{
     list-style: none;
+    display: flex;
+    justify-content: space-evenly;
 }
+.btn__aside{
+    display: flex;
+    background: none;
+    border: 0;
+    color: inherit;
+}
+   
 .icon {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
 
     &__fill-red:hover{
         fill: red;
-          
+        background-color: rgba(255, 0, 0, 0.267);
+        border-radius: 50%;
+    }
+    &__fill-red:active{
+        background-color: rgba(255, 0, 0, 0.267);
+        border-radius: 50%;
     }
     &__fill-green:hover{
         fill: green;
@@ -16,4 +34,17 @@
         fill: purple;
     }
 
+  }
+  @media screen and(min-width:768px) {
+    .post--list{
+        display: contents;
+    }
+    .aside__left--fixed{
+        background-color: transparent;
+        bottom: 50%;
+        left: 10%;
+    }
+     .btn__aside{
+        display: block;
+    }
   }
