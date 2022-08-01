@@ -53,3 +53,279 @@
   background-color: white;
   color: hsl(235deg, 72%, 55%);
 }/*# sourceMappingURL=style.css.map */
+
+
+nav {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(0deg, 0%, 9%);
+}
+
+.navbar-toggler {
+  border-style: none;
+  color: transparent !important;
+}
+
+.dev-logo {
+  height: 40px;
+  width: 50px;
+}
+
+.search-none {
+  display: none !important;
+}
+
+.search-mobile {
+  border: none;
+  background: none;
+}
+
+.alert-notification {
+  width: 15px;
+  height: 25px;
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(4deg, 71%, 53%);
+  border-radius: 50px;
+  margin-left: -10px;
+}
+
+.profile-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.button-create-post {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburger-btn {
+    display: none;
+  }
+  .button-create-post {
+    color: hsl(235deg, 72%, 55%);
+    border-color: hsl(235deg, 72%, 55%);
+    height: 40px;
+    width: 118px;
+    display: inline-block;
+  }
+  .button-create-post:hover {
+    background-color: hsl(235deg, 72%, 55%);
+    border-color: hsl(235deg, 72%, 55%);
+    text-decoration: none;
+  }
+  .search-mobile {
+    display: none;
+  }
+  .search-none {
+    display: flex !important;
+  }
+  .input-search {
+    width: 350px;
+  }
+  .loupe-search {
+    margin-left: -33px;
+    margin-top: 5px;
+  }
+  .alert-notification {
+    right: 23%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .alert-notification {
+    right: 7.5%;
+  }
+}
+.aside-list {
+  list-style: none;
+}
+
+.aside-left a {
+  text-decoration: none;
+  color: hsl(0deg, 0%, 25%);
+}
+
+.none-display-aside {
+  display: none;
+}
+
+.fill-social-media:hover {
+  width: 40px;
+  height: 40px;
+  border-color: rgb(47, 58, 178);
+  border-radius: 25%;
+  fill: rgb(47, 58, 178);
+  background: rgba(59, 73, 223, 0.1019607843);
+}
+
+.fill-icons-left-aside {
+  padding: 5px;
+}
+
+.fill-icons-left-aside:hover {
+  border-color: rgb(47, 58, 178);
+  border-radius: 5px;
+  fill: rgb(47, 58, 178);
+  background: rgba(59, 73, 223, 0.1019607843);
+  text-decoration: underline;
+}
+.fill-icons-left-aside:hover a {
+  color: rgb(47, 58, 178);
+}
+
+.mytag-no-hover {
+  pointer-events: none;
+}
+
+.card-bg {
+  background-color: hsl(0deg, 0%, 98%);
+}
+
+@media screen and (min-width: 768px) {
+  .none-display-aside {
+    display: block;
+  }
+}
+body {
+  background-color: hsl(0deg, 0%, 96%);
+}
+main {
+  background-color: rgb(244, 235, 235);
+  box-sizing: border-box;
+}
+main .nav .nav-item {
+  margin-top: 10px;
+}
+main .nav .nav-item .nav-link {
+  color: black;
+}
+main .nav .nav-item .nav-link:hover {
+  color: blue;
+}
+main .nav .nav-item:hover {
+  color: rgb(61, 61, 170);
+  background-color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+main .card {
+  margin-top: 6px;
+}
+main .card .card-img-top {
+  width: 100%;
+}
+main .card .container_img-text {
+  display: flex;
+}
+main .card .main__section--img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+main .card .text__name {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  padding-left: 10px;
+  border-style: none;
+  margin: 0%;
+}
+main .card .text__name:hover {
+  background-color: rgb(246, 244, 244);
+}
+main .card .card-text {
+  margin: 0;
+  font-weight: bold;
+  font-size: 28px;
+  text-decoration: none;
+  color: black;
+  border: 50px;
+}
+main .card .card-text:hover {
+  color: rgb(61, 61, 170);
+}
+main .card .text-muted {
+  font-size: small;
+  text-decoration: none;
+  color: hsl(0deg, 0%, 31%);
+  padding-right: 8px;
+  font-weight: lighter;
+}
+main .card .hashtag-hover--blue {
+  font-size: 14px;
+  text-decoration: none;
+  color: hsl(0deg, 0%, 31%);
+}
+main .card .hashtag-hover--blue:hover {
+  background-color: rgba(0, 60, 255, 0.081);
+  border-radius: 5px;
+  border: solid 1px rgba(115, 115, 241, 0.566);
+}
+main .card .hashtag-hover--blue .hashtags--blue {
+  color: blue;
+}
+main .card .hashtag-hover--orange {
+  font-size: 14px;
+  text-decoration: none;
+  color: hsl(0deg, 0%, 31%);
+}
+main .card .hashtag-hover--orange:hover {
+  background-color: rgba(255, 166, 0, 0.159);
+  border-radius: 5px;
+  border: solid 1px rgba(247, 189, 81, 0.651);
+}
+main .card .hashtag-hover--orange .hashtags--orange {
+  color: orange;
+}
+main .card .hashtag-hover--green {
+  font-size: 14px;
+  text-decoration: none;
+  color: hsl(0deg, 0%, 31%);
+}
+main .card .hashtag-hover--green:hover {
+  background-color: rgba(38, 126, 38, 0.178);
+  border-radius: 5px;
+  border: solid 1px rgba(56, 146, 56, 0.57);
+}
+main .card .hashtag-hover--green .hashtags--green {
+  color: green;
+}
+main .card .hashtag-hover--yellow {
+  font-size: 14px;
+  text-decoration: none;
+  color: hsl(0deg, 0%, 31%);
+}
+main .card .hashtag-hover--yellow:hover {
+  background-color: rgba(255, 255, 0, 0.13);
+  border-radius: 5px;
+  border: solid 1px rgba(242, 242, 93, 0.634);
+}
+main .card .hashtag-hover--yellow .hashtags--yellow {
+  color: yellow;
+}
+main .card .btn {
+  font-size: 13px;
+  border-style: none;
+  border-radius: 5px;
+}
+main .card .btn:hover {
+  background-color: rgb(246, 244, 244);
+}
+main .card .btn-secondary {
+  background-color: rgba(202, 196, 196, 0.711);
+  color: black;
+}
+main .card .btn-secondary:hover {
+  background-color: rgb(188, 184, 184);
+}
+
+.reactions {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .reactions {
+    display: contents;
+  }
+}
+/*# sourceMappingURL=style.css.map */
