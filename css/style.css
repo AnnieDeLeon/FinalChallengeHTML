@@ -8,6 +8,9 @@ main .nav .nav-item {
 main .nav .nav-item .nav-link {
   color: black;
 }
+main .nav .nav-item .nav-link:hover {
+  color: blue;
+}
 main .nav .nav-item:hover {
   color: rgb(61, 61, 170);
   background-color: white;
@@ -127,8 +130,9 @@ main .card .btn-secondary:hover {
 main .reactions {
   display: none;
 }
+
 @media (min-width: 768px) {
-  main .reactions {
+  .reactions {
     display: contents;
   }
 }/*# sourceMappingURL=style.css.map */

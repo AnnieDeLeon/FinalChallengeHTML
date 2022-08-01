@@ -7,9 +7,12 @@ main {
     .nav-item {
         margin-top: 10px;
         .nav-link {
-            color: black;
+            color: black; 
+            &:hover {
+                color: blue;
          }
-            
+
+        }
         &:hover {
         color: rgb(61, 61, 170);
         background-color: white;
@@ -150,9 +153,10 @@ main {
         display: none;
     }
 
+}
         @media (min-width: 768px) {
         .reactions {
             display: contents;
         }
     }
-}
+
