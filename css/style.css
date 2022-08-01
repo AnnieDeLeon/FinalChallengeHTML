@@ -1,3 +1,52 @@
-.card-text {
-  background-color: aqua;
+.forem--android-title {
+  color: rgb(59, 73, 223);
+  font-weight: bolder;
+}
+
+.see-all {
+  text-decoration: none;
+}
+
+.right-aside {
+  background-color: #fafafa;
+}
+
+.text-center--allign {
+  text-align: center;
+}
+
+.aside__span--small {
+  font-size: small;
+}
+
+.right-aside--listings {
+  border-bottom: 1px solid rgba(121, 120, 120, 0.055);
+}
+.right-aside--listings:hover {
+  background-color: white;
+  color: blue;
+}
+
+.right-aside--help {
+  border-bottom: 1px solid rgba(121, 120, 120, 0.055);
+}
+.right-aside--help:hover {
+  background-color: white;
+  color: blue;
+}
+
+.right-aside--span {
+  background-color: #fcd34d;
+  border-radius: 5px;
+  padding: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.right-aside--discuss {
+  border-bottom: 1px solid rgba(121, 120, 120, 0.055);
+}
+.right-aside--discuss:hover {
+  background-color: white;
+  color: blue;
 }/*# sourceMappingURL=style.css.map */
