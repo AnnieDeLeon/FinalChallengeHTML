@@ -1,5 +1,12 @@
+body{
+    background-color:hsl(0, 0%, 96%);
+}
+
 .aside__left--fixed{
-    background-color: aqua;
+    width: 100%;
+    background-color: hsl(0, 0%, 100%);
+    position: fixed;
+    bottom: 20%;
 }
 .post--list{
     list-style: none;
@@ -21,17 +28,21 @@
     &__fill-red:hover{
         fill: red;
         background-color: rgba(255, 0, 0, 0.267);
+        border: 1px solid red;
         border-radius: 50%;
     }
-    &__fill-red:active{
-        background-color: rgba(255, 0, 0, 0.267);
-        border-radius: 50%;
-    }
+
     &__fill-green:hover{
         fill: green;
+        background-color: rgba(0, 128, 0, 0.267);
+        border: 1px solid green;
+        border-radius: 50%;
     }
     &__fill-purple:hover{
         fill: purple;
+        background-color: rgba(128, 0, 128, 0.267);
+        border: 1px solid purple;
+        border-radius: 50%;
     }
 
   }
@@ -41,7 +52,7 @@
     }
     .aside__left--fixed{
         background-color: transparent;
-        bottom: 50%;
+        bottom: 60%;
         left: 10%;
     }
      .btn__aside{
