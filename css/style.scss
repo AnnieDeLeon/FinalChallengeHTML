@@ -1,6 +1,12 @@
+// Secciones
+
 @use './home/nav-section';
+@use './home/left-aside';
+@use './base';
+@use './home/main-section';
+@use './home/right-aside';
+@use './home/footer-section';
 @use './home/main-section-article';
 @use './home/left-aside-article';
 @use './home/right-aside-article';
-@use './home/footer-section';
 @use './home/read-next-section';
