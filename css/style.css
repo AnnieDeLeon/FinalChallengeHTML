@@ -1,3 +1,25 @@
+footer {
+  background-color: hsl(0deg, 0%, 90%);
+  padding: 30px;
+}
+
+.footer {
+  flex-direction: column;
+}
+
+.aling-paragraph {
+  text-align: center;
+}
+
+.mb-built-paragraph {
+  margin-bottom: -20px;
+}
+
+.plant-icon:hover {
+  width: 32px;
+  height: 32px;
+}
+
 nav {
   background-color: hsl(0deg, 0%, 100%);
   color: hsl(0deg, 0%, 9%);
@@ -101,6 +123,20 @@ nav {
   background: rgba(59, 73, 223, 0.1019607843);
 }
 
+a {
+  color: rgb(59, 73, 223);
+  text-decoration: none;
+}
+
+.anchors-styles:hover {
+  color: #2F3AB2;
+  text-decoration: underline;
+}
+
+.font {
+  font-size: smaller;
+  color: #5a5a5a;
+  
 .fill-icons-left-aside {
   padding: 5px;
 }
@@ -327,4 +363,5 @@ main .card .btn-secondary:hover {
     background-color: white;
     color: hsl(235deg, 72%, 55%);
   }
+
 }/*# sourceMappingURL=style.css.map */
