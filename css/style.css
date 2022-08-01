@@ -127,7 +127,8 @@ main .card .btn-secondary {
 main .card .btn-secondary:hover {
   background-color: rgb(188, 184, 184);
 }
-main .reactions {
+
+.reactions {
   display: none;
 }
 
