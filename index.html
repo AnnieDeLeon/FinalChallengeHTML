@@ -14,8 +14,8 @@
     <title>Desafío Final Maquetado</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar bg-light">
+    <header class="sticky-top">
+      <nav class="navbar">
         <div class="container-fluid">
           <div class="container">
             <div class="row">
@@ -246,9 +246,10 @@
         </div>
       </nav>
     </header>
-    <!-- LEFT-ASIDE VICTOR -->
+    
     <section class="container">
       <div class="row">
+        <!-- LEFT-ASIDE VICTOR -->
         <aside class="col-12 col-md-4 col-lg-3 none-display-aside aside-left">
           <ul class="aside-list mt-3">
             <li class="nav-item fill-icons-left-aside">
@@ -545,7 +546,7 @@
                     <a href="#" class="card text__name">Sonny Li<br> <span class="text-muted">29 Jul</span></a>
                   </section>
                   <div class="ms-md-5">
-                    <a href="#" class="card-text">8-Bit Learn to Code Platform!</a>
+                    <a href="./article.html" class="card-text">8-Bit Learn to Code Platform!</a>
                   </div>
                     <a href="#" class="ms-md-5 hashtag-hover--blue"><span class="hashtags--blue">#</span>news</a>
                     <a href="#" class="hashtag-hover--orange"><span class="hashtags--orange">#</span>beginners</a>
@@ -841,7 +842,7 @@
         </main>
         <!--RIGHT-ASIDE XAVY-->
         <aside class="col-lg-3 right-aside-mq">
-          <section>
+          <section class="mt-3">
             <div class="card right-aside p-1">
               
               <div class="card-body">
@@ -851,20 +852,37 @@
             </div>
 
             <div class="card right-aside mt-3">
-              <div class="card-body">
-                <div class="d-flex justify-content-between">
-                  <h5 class="card-title--listings mb-3"> <strong>Listings</strong> </h5> 
+              <div class="card-body p-0">
+                <div class="d-flex justify-content-around align-items-center py-3">
+                  <h5 class="card-title--listings mb-0"> <strong>Listings</strong> </h5> 
                   <a class="see-all" href="#">See all </a> 
                 </div>
-            
-                <p class="right-aside--listings">🆘 Help Needed for Low-code Framework for Node.js <br> <span class="aside__span--small">collabs</span></p>
-                <p class="right-aside--listings">🚨🚨🚨 tsParticles is looking for contributors, any kind of JavaScript/TypeScript experience is welcome ⭐️⭐️⭐️ <br> <span class="aside__span--small">collabs</span> </p>
-                <p class="right-aside--listings">Wanted: Technical writers (NLP, IR, AI, Marketing, SEM) <br> <span class="aside__span--small" >collabs</span></p>
-                <p class="right-aside--listings">Frontend developer open for hiring <br> <span class="aside__span--small" >forhire</span></p>
-                <p class="right-aside--listings">Set Up a React App Using Clean Architecture by Running One Command <br> <span class="aside__span--small">products</span></p>
-                <p class="right-aside--listings text-center--allign mb-1"> <strong class="right-aside--strong"> Create a Listing</strong>
-                </p>
-              
+                <section class="right-aside--listings p-0">
+                  <p class="px-3 m-0">🆘 Help Needed for Low-code Framework for Node.js</p>
+                  <p class="aside__span--small text-muted px-3">collabs</p>
+                </section>
+                <section class="right-aside--listings p-0">
+                  <p class="px-3 m-0">🚨🚨🚨 tsParticles is looking for contributors, any kind of 
+                    JavaScript/TypeScript experience is welcome ⭐️⭐️⭐️</p>
+                  <p class="aside__span--small text-muted px-3">collabs</p> 
+                </section>
+                <section class="right-aside--listings p-0">
+                  <p class="px-3 m-0">Wanted: Technical writers (NLP, IR, AI, Marketing, SEM)</p>
+                  <p class="aside__span--small text-muted px-3">collabs</p>
+                </section>
+                
+                <section class="right-aside--listings p-0">
+                  <p class="px-3 m-0">Frontend developer open for hiring.</p>
+                  <span class="aside__span--small text-muted px-3" >forhire</span>
+                </section>
+                 
+                <section class="right-aside--listings p-0">
+                <p class="px-3 m-0">Set Up a React App Using Clean Architecture by Running One Command</p>
+                <p class="aside__span--small text-muted px-3">products</p>
+                </section>
+                
+                <a class="right-aside--listings right-aside--strong mb-1 px-5">Create a Listing</a>
+                
               </div>
             </div>
             
@@ -925,7 +943,7 @@
               2022.
             </p>
             <p class="aling-paragraph">
-              <a class="plant-icon" href="https://www.forem.com/">
+              <a class="plant-icon mt-5" href="https://www.forem.com/">
                 <img src="./assets/home/footer-section.scss/plant-icon.svg" alt="Forem Logo" />
               </a>
             </p>
