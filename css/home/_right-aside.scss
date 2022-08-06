@@ -30,6 +30,7 @@
 }
 .right-aside--help{
     border-bottom: 1px solid rgba(121, 120, 120, 0.055);
+    color: hsl(0,0%,25%);
     &:hover {
         cursor: pointer;
         background-color: white;
@@ -45,6 +46,7 @@
 }
 .right-aside--discuss{
     border-bottom: 1px solid rgba(121, 120, 120, 0.055);
+    color: hsl(0,0%,25%);
     &:hover {
         cursor: pointer;
         background-color: white;

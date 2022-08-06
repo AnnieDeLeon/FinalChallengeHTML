@@ -310,6 +310,7 @@ main .card .btn-secondary:hover {
 
 .right-aside--help {
   border-bottom: 1px solid rgba(121, 120, 120, 0.055);
+  color: hsl(0deg, 0%, 25%);
 }
 .right-aside--help:hover {
   cursor: pointer;
@@ -327,6 +328,7 @@ main .card .btn-secondary:hover {
 
 .right-aside--discuss {
   border-bottom: 1px solid rgba(121, 120, 120, 0.055);
+  color: hsl(0deg, 0%, 25%);
 }
 .right-aside--discuss:hover {
   cursor: pointer;
