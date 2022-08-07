@@ -16,10 +16,13 @@
     text-decoration: none;
 }
 
-.right-aside--title:hover {
-    cursor: pointer;
-    color:hsl(235,72%,55%);
-    }
+.right-aside--title{
+    border-bottom: 1px solid rgba(121, 120, 120, 0.055);
+     &__:hover {
+            cursor: pointer;
+            color:hsl(235,72%,55%);
+            }
+}
 
 .right-aside--listings{
     border-bottom: 1px solid rgba(121, 120, 120, 0.055);
