@@ -275,11 +275,6 @@ main .card .btn-secondary:hover {
   display: none;
 }
 
-.forem--android-title {
-  color: rgb(59, 73, 223);
-  font-weight: bolder;
-}
-
 .see-all {
   text-decoration: none;
 }
@@ -296,6 +291,11 @@ main .card .btn-secondary:hover {
 .aside__span--small {
   font-size: small;
   text-decoration: none;
+}
+
+.right-aside--title:hover {
+  cursor: pointer;
+  color: hsl(235deg, 72%, 55%);
 }
 
 .right-aside--listings {

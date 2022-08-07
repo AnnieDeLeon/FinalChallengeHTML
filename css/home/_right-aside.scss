@@ -1,10 +1,6 @@
 .right-aside-mq {
     display: none;
 }
-.forem--android-title{
-    color: rgba(59, 73, 223);
-    font-weight: bolder;
-}
 .see-all{
     text-decoration: none;
 }
@@ -19,6 +15,12 @@
     font-size: small;
     text-decoration: none;
 }
+
+.right-aside--title:hover {
+    cursor: pointer;
+    color:hsl(235,72%,55%);
+    }
+
 .right-aside--listings{
     border-bottom: 1px solid rgba(121, 120, 120, 0.055);
     color: hsl(0,0%,25%);
