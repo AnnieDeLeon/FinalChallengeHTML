@@ -293,7 +293,10 @@ main .card .btn-secondary:hover {
   text-decoration: none;
 }
 
-.right-aside--title:hover {
+.right-aside--title {
+  border-bottom: 1px solid rgba(121, 120, 120, 0.055);
+}
+.right-aside--title__:hover {
   cursor: pointer;
   color: hsl(235deg, 72%, 55%);
 }
